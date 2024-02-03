@@ -4,10 +4,47 @@ body {
   padding: 0;  
 }
 
+.hi {
+  font-family: 'Cinzel', cursive;
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.im {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  margin-right: 2px;
+  font-style: none;
+}
+
+.zacharyshort {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 3rem;
+}
+
+.myName {
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 0;
+}
+
+.meDesc {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  margin-top: 0; 
+  margin-left: 7%;
+}
+
 .link {
   text-decoration: none;
+  line-height: 2rem;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .ulHomePage {
   list-style-type: none;
+  padding-left: 0;
+  margin-left: 7%;
+  margin-top: 5%;
 }
+

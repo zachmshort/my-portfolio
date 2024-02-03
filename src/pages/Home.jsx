@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect }  from 'react';
 
@@ -15,8 +14,8 @@ export default function Home() {
     return (
       <>
       <div className="myName-Info">
-      <h1 className="myName">Hi! I'm Zachary Short</h1>
-      <p className="meDesc">I have a passion for UI/UX design, 3D modeling/animation, and video editing</p>
+      <h1 className="myName"><span className='hi'>Welcome,</span><span className='im'>My name is</span><span className='zacharyshort'>Zachary Short</span></h1>
+      <p className="meDesc">UI/UX Design, 3D Modeling, & Video Editing</p>
       </div>
         <ul className="ulHomePage">
           <li><Link to="/" className="link" onClick={handleNavigate}>Home</Link></li>
