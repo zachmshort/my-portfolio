@@ -1,19 +1,13 @@
-body: {
-  height: '100vh', 
-  margin: 0,       
-  padding: 0,      
+body {
+  height: '100vh';
+  margin: 0;  
+  padding: 0;  
 }
 
-link: {
-  textDecoration: 'none',
+.link {
+  text-decoration: none;
 }
 
-homePage: {
-}
-
-myName: {
-}
-
-ulHomePage: {
-  listStyleType: 'none',
+.ulHomePage {
+  list-style-type: none;
 }
