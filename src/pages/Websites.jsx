@@ -5,7 +5,7 @@ export default function Websites() {
       <>
         <h1>Websites Page</h1>
         <div className="image-container">
-          <img src="/greenforce-staffing-bYZn_C-RswQ-unsplash.jpg" alt="3D Ripple Image"/>
+          <img src="/ezh.jpg" alt='EZHomesteading.com'/>
         </div>
       </>
   );
