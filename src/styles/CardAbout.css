@@ -1,0 +1,86 @@
+.cardsContainer {
+    height: 90vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px;
+    width: calc(100% - 20px);
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .02);
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: auto;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.card:hover::before, 
+.card:hover > .cardAboutBorder {
+    opacity: .5;
+}
+
+.card::before, 
+.card > .cardvBorder { 
+    position: absolute;
+    content: "";
+    height: 100%;
+    left: 0px;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 500ms;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.card::before {
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y), 
+        rgba(255, 255, 255, .06),
+        transparent 40%
+    );
+    z-index: 3;
+}
+
+.card > .cardAboutBorder {
+    background: radial-gradient(
+        400px circle at var(--mouse-x) var(--mouse-y), 
+        rgba(255, 255, 255, .3),
+        transparent 40%
+    );
+    z-index: 1;
+}
+
+.cardAboutContent {
+    text-align: center;
+    padding-bottom: 20px; 
+    position: absolute;
+  }
+
+  .cardAboutContent h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+  }
+
+  .cardAboutContent p {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }

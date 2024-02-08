@@ -18,7 +18,6 @@ export default function Home() {
       <p className="meDesc">UI/UX Design, 3D Modeling, & Video Editing</p>
       </div>
         <ul className="ulHomePage">
-          <li><Link to="/" className="link" onClick={handleNavigate}>Home</Link></li>
           <li><Link to="/Websites" className="link" onClick={handleNavigate}>Websites I've Built</Link></li>
           {/* <li><Link to="/Models" className="link" onClick={handleNavigate}>3D Models I've Built</Link></li>
           <li><Link to="/Videos" className="link" onClick={handleNavigate}>Videos I've Edited</Link></li> */}

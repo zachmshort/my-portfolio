@@ -1,5 +1,5 @@
 .cardsContainer {
-    height: 100vh;
+    height: 90vh;
     margin: 0px;
     padding: 0px;
     display: flex; 
@@ -91,4 +91,6 @@
   .cardContent img {
     max-width: 20%;
     max-height: 18%;
+    min-width: 20%;
+    min-height: 18%;
   }

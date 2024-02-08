@@ -1,9 +1,12 @@
 import '../styles/Websites.css';
 import Card from '../components/Card';
+import Zachary from '../components/Zachary';
 
 export default function Websites() {
 
     return (
+      <>
+      <Zachary/>
       <div className='cardsContainer'>
       <div className="cards">
       <Card title="EZHomesteading" imageSRC = "/images/apple.png" projectLink = "https://www.ezhomesteading.com/" projectDesc="EZH aims to connect family scale farms & gardens with locals.">
@@ -20,5 +23,6 @@ export default function Websites() {
       </Card>
       </div>
       </div>
+      </>
   );
 }
