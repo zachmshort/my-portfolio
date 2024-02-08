@@ -22,7 +22,8 @@ export default function Home() {
           {/* <li><Link to="/Models" className="link" onClick={handleNavigate}>3D Models I've Built</Link></li>
           <li><Link to="/Videos" className="link" onClick={handleNavigate}>Videos I've Edited</Link></li> */}
           <li><Link to="/Contact" className="link" onClick={handleNavigate}>Contact Me</Link></li>
-          <li><Link to="/About"className="link" onClick={handleNavigate}>About Me</Link></li>
+          <li><Link to="/About" className="link" onClick={handleNavigate}>About Me</Link></li>
+          <li><Link to="/Resume" className="link" onClick={handleNavigate}>Resume</Link></li>
         </ul>
         </>
     );

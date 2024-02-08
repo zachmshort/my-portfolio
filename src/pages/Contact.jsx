@@ -3,13 +3,13 @@ import Card from '../components/Card';
 import Zachary from '../components/Zachary';
 
 export default function Contact() {
-
+  const emailAddress = "zms@ezhomesteading.com";
     return (
       <>
       <Zachary/>
       <div className='cardsContainer'>
       <div className="cards">
-      <Card title="Email Me" imageSRC = "/images/email.png" projectLink = "https://www.ezhomesteading.com/" projectDesc="For inquiries about web development, 3D modeling, & video editing.">
+      <Card title="Email Me" imageSRC = "/images/email.png" projectLink = {"mailto:" + emailAddress} projectDesc="For inquiries about web development, 3D modeling, & video editing.">
       </Card>
       <Card title="Github" projectLink = "https://github.com/zachmshort/" imageSRC = "/images/github.png" projectDesc="For history of all my previous & current coding-related projects.">
       </Card>

@@ -68,19 +68,23 @@
     text-align: center;
     padding-bottom: 20px; 
     position: absolute;
+    
   }
 
   .cardAboutContent h1 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-style: normal;
+    
   }
 
   .cardAboutContent p {
     font-family: 'Quicksand', sans-serif;
+    padding: 5px;
   }
 
   a {
     color: white;
     text-decoration: none;
+    
   }
