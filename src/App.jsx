@@ -9,7 +9,6 @@ function App() {
     <body>
         <Outlet />
     </body>
-    
   )
 }
 
